@@ -1,0 +1,88 @@
+body{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px 50px 20px;
+    font-family: 'Inconsolata', monospace;
+    max-width: 1440px;
+}
+
+.headerFirst {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px;
+}
+
+.headerTwo {
+    display:flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-left: 100px;
+}
+
+.headerTwo a{
+    text-decoration: none;
+    color: black;
+}
+
+.containerImg {
+    display: flex;
+}
+
+#logo {
+    height: 200px;
+    width: 100%;
+}
+
+/*main*/
+
+/*menu*/
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: center;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.menu a:hover{
+    border-bottom: 1px black solid;
+}
+
+.buttonSearch button{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.buttonSearch i {
+font-size: 20px;
+color: rgb(73, 70, 70);
+}
+
+#site-search {
+    border: none;
+    border-bottom: 1px solid darkgray;
+    text-align: center;
+}
+
+.categories{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+
+
+/*contenu principal*/
